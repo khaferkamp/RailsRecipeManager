@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails RailsRecipeManager: development" uuid="38d54558-ca93-4add-a538-317cc95fe610">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails RailsRecipeManager: test" uuid="950d7021-a7a2-4732-8597-2305f037f440">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
