@@ -5,7 +5,7 @@ The goal is to develop an online recipe manager app based on Rails 4.
 
 
 * Ruby version 2.20
-* Rails 4.20
+* Rails 4.2.1
 * Database: Sqllite3
 
 <tt>rake doc:app</tt>.

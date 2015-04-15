@@ -12,7 +12,9 @@
       <h4><%= link_to recipe.name, recipe_path(recipe) %></h4>
       <p><%= recipe.summary %></p>
       <p><span class="quit"><small><%= time_ago_in_words(recipe.created_at) %></small></span></p>
-      <p><%= recipe.description %></p>
+    </div>
+    <div class="col-md-2">
+      <%=	 image_tag(recipe.picture.url, size: "250x150", class: "gravatar") if recipe.picture? %>
     </div>
   </div>
   <hr/>

@@ -19,8 +19,8 @@ $navbar-default-color: $light-orange;
   font-weight: bold;
 }
 
-#logo:hover{
- color: white;
+#logo:hover {
+  color: white;
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color:  #777;
+  color: #777;
 }
 
 .left {
@@ -89,4 +89,15 @@ input, textarea, select, .uneditable-input {
 
 input {
   height: auto !important;
+}
+
+span.picture {
+  margin-top: 10px;
+  input {
+    border: 0;
+  }
+}
+
+.show_recipe {
+  margin: 10px 10px 10px 10px;
 }
