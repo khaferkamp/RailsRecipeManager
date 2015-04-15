@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06838070-4839-4953-aeb1-062c097be0b6" name="Default" comment="- Resolved Redundancy through partials&#10;- Added Edit and Create for Recipes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/recipe/picture/5/IMG_1757.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20150415171659_add_picture_to_recipes.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/RailsRecipeManager.iml" afterPath="$PROJECT_DIR$/.idea/RailsRecipeManager.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/recipes/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/recipes/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/recipes/index.html.erb" afterPath="$PROJECT_DIR$/app/views/recipes/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/recipe.rb" afterPath="$PROJECT_DIR$/app/models/recipe.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/recipes_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/recipes_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/recipes/show.html.erb" afterPath="$PROJECT_DIR$/app/views/recipes/show.html.erb" />
+    <list default="true" id="06838070-4839-4953-aeb1-062c097be0b6" name="Default" comment="Added Image Uploader">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RailsRecipeManager.iws" />
@@ -711,7 +695,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429116439967</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Image Uploader">
+      <created>1429124804602</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1429124804602</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -782,7 +772,8 @@
     <MESSAGE value="- Models &quot;Chef&quot; and &quot;Recipe&quot; with Validations&#10;- Added tests for Model &quot;Chef&quot; and &quot;Recipe&quot;" />
     <MESSAGE value="- Added Associations&#10;- Added Tests" />
     <MESSAGE value="- Resolved Redundancy through partials&#10;- Added Edit and Create for Recipes" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Resolved Redundancy through partials&#10;- Added Edit and Create for Recipes" />
+    <MESSAGE value="Added Image Uploader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Image Uploader" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
