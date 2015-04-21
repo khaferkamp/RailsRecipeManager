@@ -4,6 +4,7 @@ class RecipeTest < ActiveSupport::TestCase
 
   def setup
     @chef = Chef.create(chefname: "bob", email: "bob@example.com")
+    @chef.password = "password"
 
     @recipe = @chef.recipes.build(name: 'Chicken parm',
     summary: 'This is the best chicken parm recipe ever',
